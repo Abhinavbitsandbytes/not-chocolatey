@@ -1,0 +1,27 @@
+/* Basic styles */
+.tabs {
+    display: flex;
+    cursor: pointer;
+}
+
+.tab {
+    padding: 10px 20px;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+.tab.active {
+    background: white;
+    border-bottom: 1px solid white;
+}
+
+.content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: none; /* Hide all by default */
+}
+
+.content.active {
+    display: block; /* Show active content */
+}

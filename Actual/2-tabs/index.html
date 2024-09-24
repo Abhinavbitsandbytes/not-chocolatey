@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Interface</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+
+<body>
+
+    <div class="tabs">
+        <div class="tab active" data-target="content1">Tab 1</div>
+        <div class="tab" data-target="content2">Tab 2</div>
+        <div class="tab" data-target="content3">Tab 3</div>
+    </div>
+
+    <div id="content1" class="content active">
+        <h2>Content for Tab 1</h2>
+        <p>This is the content for the first tab.</p>
+    </div>
+    <div id="content2" class="content">
+        <h2>Content for Tab 2</h2>
+        <p>This is the content for the second tab.</p>
+    </div>
+    <div id="content3" class="content">
+        <h2>Content for Tab 3</h2>
+        <p>This is the content for the third tab.</p>
+    </div>
+
+    <script src="tabs.js"></script>
+</body>
+</html>
